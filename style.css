@@ -1,0 +1,43 @@
+#intro{
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+#intr{
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+body {
+  /* background: #111; */
+  height: 100vh;
+  /* overflow: hidden;
+  display: flex;
+  align-items: center; */
+}
+
+/* container */
+.track {
+  display: flex;
+  width: max-content;
+  animation:  50s linear infinite;
+}
+
+/* logos */
+.track img {
+  width: 120px;
+  margin: 0 40px;
+}
+
+/* animation */
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+    50% {
+    transform: translateX(45%);
+  }
+  100% {
+    transform: translateX(90%);
+  }
+}
